@@ -1,11 +1,12 @@
 import React from "react";
+import profile from'./Profile.module.css';
 
 function Profile(){
     return(
-        <main className='main'>
-        <img className='main__image' src='https://c.wallhere.com/photos/22/27/2560x1600_px_landscape_nature-1077192.jpg!d'></img>
+        <main className={profile.main}>
+        <img className={profile.image} src='https://c.wallhere.com/photos/22/27/2560x1600_px_landscape_nature-1077192.jpg!d'></img>
         Main content
-        <div className='main__avatar'>
+        <div className={profile.avatar}>
           av + desc
         </div>
         <div>
@@ -14,11 +15,11 @@ function Profile(){
         <div>
           new post
         </div>
-        <div>
-          <div>
+        <div className={profile.post}>
+          <div className={profile.item}>
             post 1
           </div>
-          <div>
+          <div className={profile.item}>
             post 2
           </div>
         </div>

@@ -1,0 +1,26 @@
+.nav {
+    grid-area: n;
+
+    background-color: rgb(197, 43, 244);
+    border-radius: 20px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.item {
+   color: blue; 
+}
+
+.link {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(155, 193, 226);
+}
+

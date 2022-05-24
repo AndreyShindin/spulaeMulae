@@ -1,0 +1,15 @@
+.header {
+    grid-area: h;
+    
+    background-color: rgb(209, 155, 28);
+    border-radius: 20px;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+}
+
+.link:hover {
+    background-color: brown;
+}

@@ -1,24 +1,25 @@
 import React, { Component } from "react";
+import navs from'./Navbar.module.css';
 
 class Navbar extends Component {
     render(){
         return(
-            <nav className='nav'>
-            <ul className='nav__list'>
-              <li className='nav__item'>
-                <a className='nav__link' href=''>Profile</a>
+            <nav className={navs.nav}>
+            <ul className={navs.list}>
+              <li className={navs.item}>
+                <a className={navs.link} href=''>Profile</a>
               </li>
-              <li className='nav__item'>
-                <a className='nav__link' href=''>Messages</a>
+              <li className={navs.item}>
+                <a className={navs.link} href=''>Messages</a>
               </li>
-              <li className='nav__item'>
-                <a className='nav__link' href=''>News</a>
+              <li className={navs.item}>
+                <a className={navs.link} href=''>News</a>
               </li>
-              <li className='nav__item'>
-                <a className='nav__link' href=''>Music</a>
+              <li className={navs.item}>
+                <a className={navs.link} href=''>Music</a>
               </li>
-              <li className='nav__item'>
-                <a className='nav__link' href=''>Settings</a>
+              <li className={navs.item}>
+                <a className={navs.link} href=''>Settings</a>
               </li>
             </ul>
           </nav> 
